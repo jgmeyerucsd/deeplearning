@@ -63,7 +63,7 @@ model %>%
 
 #Model's Optimizer
 #defining the type of optimizer-ADAM-Adaptive Momentum Estimation
-opt<-optimizer_adam( lr= 0.0001 , decay = 1e-6 )
+opt<-optimizer_adam( lr= 0.001 , decay = 1e-6 )
 #lr-learning rate , decay - learning rate decay over each update
 
 model %>%
